@@ -21,3 +21,6 @@ PLATFORMS
 DEPENDENCIES
   rack (= 1.5.2)
   sinatra!
+
+BUNDLED WITH
+   1.10.3

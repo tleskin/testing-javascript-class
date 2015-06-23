@@ -39,3 +39,29 @@ describe('isOdd()', function () {
     assert(isOdd(-301));
   });
 });
+
+describe('theTruth()', function() {
+  it('is true with true', function () {
+    assert(theTruth(true));
+  });
+
+  it('is false with false', function () {
+    assert(!theTruth(false));
+  });
+
+  it('is false with null', function () {
+    assert(!theTruth(null));
+  });
+
+  it('is false with 0', function () {
+    assert(!theTruth(0));
+  });
+
+  it('is false with NaN', function () {
+    assert(!theTruth(NaN));
+  });
+
+  it('is false with undefined', function () {
+    assert(!theTruth(undefined));
+  });
+});
