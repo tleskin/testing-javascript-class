@@ -26,3 +26,7 @@ As a result, you *have to* fire up the server with `bundle exec rackup`. Doing i
 ## Step Two: Let's Test Some JavaScript
 
 We're going to step through six examples. Five of them have opportunities for you to cut your teeth on writing some Qunit tests.
+
+## More Info
+
+The original repo for the class is available [here](https://github.com/turingschool-examples/testing-javascript)
