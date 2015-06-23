@@ -45,7 +45,7 @@ describe('test the hide message button', function () {
     $('.message').text('This is a secret message.')
   });
 
-  it('shows the secret message when click then hides when click hide', function () {
+  it('hides the secret message', function () {
     assert.strictEqual($('.message').text(), this.message, 'It has a message now.');
     $('.hide-message').click();
     assert.strictEqual($('.message').text(), '', 'It has no message now.');
